@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ku">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hussin Market Dashboard</title>
+<link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body>
+
+<div class="sidebar">
+    <h2>🏪 Hussin Market</h2>
+
+    <a href="#">🏠 Dashboard</a>
+    <a href="#">🛒 POS</a>
+    <a href="#">📦 Products</a>
+    <a href="#">📊 Reports</a>
+    <a href="#">⚙️ Settings</a>
+
+    <button class="logout">Logout</button>
+</div>
+
+<div class="content">
+
+    <h1>Dashboard</h1>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>💰 Today Sales</h3>
+            <p>0 IQD</p>
+        </div>
+
+        <div class="card">
+            <h3>📦 Products</h3>
+            <p>0</p>
+        </div>
+
+        <div class="card">
+            <h3>🛒 Orders</h3>
+            <p>0</p>
+        </div>
+
+        <div class="card">
+            <h3>📈 Profit</h3>
+            <p>0 IQD</p>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
