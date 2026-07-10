@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ku">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hussin Market POS</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="login-box">
+
+    <h1>🏪 Hussin Market</h1>
+    <p>Point Of Sale System</p>
+
+    <input type="text" id="username" placeholder="👤 Username">
+
+    <div class="password-box">
+        <input type="password" id="password" placeholder="🔒 Password">
+        <button type="button" onclick="showPassword()">👁️</button>
+    </div>
+
+    <button class="login-btn" onclick="login()">Login</button>
+
+    <p id="message"></p>
+
+    <div class="footer">
+        <button type="button">کوردی</button>
+        <button type="button">العربية</button>
+        <button type="button" onclick="darkMode()">🌙</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
